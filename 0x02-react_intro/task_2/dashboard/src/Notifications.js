@@ -5,6 +5,7 @@ function Notifications() {
   return (
     <div className="Notifications">
       <p>Here is the list of notifications</p>
+      <button aria-label="Close" >A</button>
     </div>
   );
 }
