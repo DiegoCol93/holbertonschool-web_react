@@ -1,0 +1,59 @@
+/* ────────────────────────── Global definitions. ────────────────────────── */
+:root {
+  --red: #E0354B;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* ──────────────────────── Header. ──────────────────────── */
+.App-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+
+  min-height: 10vh;
+
+  color: var(--red);
+  border-bottom: 3px solid var(--red);
+
+  font-family: Verdana;
+  font-size: calc(2px + 1.5vmin);
+}
+
+.App-logo {
+  height: 20vmin;
+  pointer-events: none;
+}
+
+
+/* ───────────────────────── Body. ───────────────────────── */
+.App-body {
+  font-family: Verdana;
+  min-height: 100%;
+  padding-bottom: 5vh;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-top: 5vh;
+}
+
+/* ──────────────────────── Footer. ──────────────────────── */
+.App-footer {
+  border-top: 3px solid var(--red);
+  bottom:0;
+  font-family: Verdana;
+  font-style: italic;
+  min-height: 8vh;
+  padding-top: 2vh;
+  position:absolute;
+  text-align: center;
+  width: 100%;
+}
