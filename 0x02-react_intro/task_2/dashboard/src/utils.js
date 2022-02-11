@@ -1,8 +1,8 @@
-function getFullYear() {
+export function getFullYear() {
   return new Date().getFullYear();
 }
 
-function getFooterCopy(isIndex) {
+export function getFooterCopy(isIndex) {
   if (isIndex) {
 	return 'Holberton School';
   } else {
@@ -10,6 +10,6 @@ function getFooterCopy(isIndex) {
   }
 }
 
-function getLatestNotification() {
-	return '<strong>Urgent requirement</strong> - complete by EOD'
+export function getLatestNotification() {
+  return '<strong>Urgent requirement</strong> - complete by EOD'
 }
