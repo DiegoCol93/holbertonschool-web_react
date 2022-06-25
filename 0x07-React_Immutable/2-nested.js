@@ -1,3 +1,5 @@
+import getImmutableObject from './0-fromjs';
+
 export default function accessImmutableObject(object, array) {
-  array.forEach(element => {})
+  return getImmutableObject(object).getIn(array);
 }
